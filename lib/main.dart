@@ -10,6 +10,8 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Random Practice',
+
+      /// returning home page
       home: AppFirstPage(),
     );
   }
